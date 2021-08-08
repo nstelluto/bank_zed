@@ -1,0 +1,109 @@
+.div-info-bank{
+    padding: 1rem;
+    height: 95vh;
+    padding-right: 4rem;
+    padding-left: 4rem;
+}
+.header-info-bank{
+    width: 4rem;
+    height: 4rem;
+}
+.header-info-bank img{
+    width: 100%;
+    height: auto;
+}
+.div-info-bank h1{
+    color: white;
+    font-weight: 300;
+    font-size: 1.6em;
+    width: 25rem;
+    line-height: 35px;
+    height: 15vh;
+    display: flex;
+    justify-content: cx;
+    align-items: center;
+}
+.div-img-info-bank{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 5rem;
+    bottom: 7rem;
+    position: relative;
+    height: 94vh;
+    width: 132%;
+    right: 5rem;
+}
+.div-img-info-bank img{
+    width: 100%;
+    height: auto;
+}
+.mobile-footer-div-info-bank{
+    display: none;
+}
+.mobile-title-div-info-bank{
+    display: none;
+}
+.desktop-title-div-info-bank{
+    display: block;
+}
+
+/* css para mobile e tablet */
+@media (min-width: 320px) and (max-width: 1024px) {
+
+    .div-img-info-bank {
+        right: inherit;
+        bottom: inherit;
+        position: inherit;
+        height: 45vh;
+        width: 100%;
+        right: inherit;
+    }
+    .div-info-bank{
+        padding-right: 1rem;
+        padding-left: 1rem;
+        height: 100vh;
+    }
+    .div-info-bank h1 {
+        width: 100%;
+        line-height: 43px;
+        font-size: 2em;
+        height: 15vh;
+    }
+    .mobile-footer-div-info-bank{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        font-size: 1.2em;
+        color: #ffffff;
+        font-weight: 400;
+        height: 14vh;
+    }
+    .mobile-footer-div-info-bank p{
+        margin-bottom: 0.8rem;
+    }
+    .mobile-title-div-info-bank{
+        display: block;
+    }
+    .desktop-title-div-info-bank{
+        display: none;
+    }
+    .mobile-footer-div-info-bank svg.icon-arrow{
+        width: 1.5em;
+        height: 1.5em;    
+    }
+    .header-info-bank {
+        height: 15vh;
+    }
+
+}
+
+/* css para tablet */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .div-info-bank {
+        padding-right: 4rem;
+        padding-left: 4rem;
+    }
+} 
